@@ -1,6 +1,6 @@
 package exercises.technology;
 
-public class Computer {
+public class Computer extends AbstractEntity{
     private String memory;
     private String maker;
     private double price;
@@ -58,7 +58,7 @@ public class Computer {
         }else if (maker == "Samsung"){
             return "Android";
         } else {
-            return "Unkown Operating System";
+            return "Unknown Operating System";
         }
     }
 }
